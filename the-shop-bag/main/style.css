@@ -122,25 +122,43 @@ p {
 .search button {
     margin-top: 40px;
 }
-.logos {
+.logos { 
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 3.5rem;
     width: 100%;
     margin: auto;
 
 }
-.hero .logos, ul img {
-  display: inline-flex;
-  text-align: center;
-  justify-content: space-between;
-  align-content: center;
-  padding: 0 20px;
-   margin: 0px 40px;
-  height: 150px;
-  width: 200px;
+.logos img {
+    margin-left: 75%;
+    height: 150px;
+    width: 200px;
+  
 }
 
 .review {
-    height: 70vh;
+    background-color: #d3d3d3;
+    height: 100vh;
     width: 100%;
 }
+
+.people h2 {
+    text-align: center;
+    padding-top: 70px;
+}
+
+.review-container, div {
+    grid-template-rows: repeat(1, 200px);
+    text-align: center;
+    grid-gap: 0.3rem;
+    padding: 1.2rem 0;
+    
+    
+}
+
+
+
+
 
 
