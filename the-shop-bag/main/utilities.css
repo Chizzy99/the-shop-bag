@@ -1,0 +1,25 @@
+/*  colors */
+
+.primary {
+    color: #008000;
+}
+
+.secondary {
+    color: #f08080;
+}
+
+.btn {
+    padding: 5px 10px;
+    margin: 5px 5px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid  #f08080;
+    cursor: pointer;
+    background-color: #f08080;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    opacity: 0.5;
+}
+
