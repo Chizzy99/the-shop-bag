@@ -134,7 +134,6 @@ p {
     margin-left: 75%;
     height: 150px;
     width: 200px;
-  
 }
 
 .review {
@@ -152,11 +151,21 @@ p {
     grid-template-rows: repeat(1, 200px);
     text-align: center;
     grid-gap: 0.3rem;
-    padding: 1.2rem 0;
-    
-    
+    padding: 1.2rem 0;   
 }
 
+.footer {
+    height: 20vh;
+    background-color: #333;
+}
+
+.footer p {
+    color: #d3d3d3;
+    padding-top: 40px;
+    text-align: center;
+    
+}
+ 
 
 
 
